@@ -62,7 +62,7 @@ Sermon Studio (writing in the app), bulletins, prayer requests, and teaching sch
 
 **Before you start:** Windows will warn you that the installer is from an unknown publisher. That is expected and safe; see [Windows will warn you first](#windows-will-warn-you-first) below.
 
-1. Go to the **[Releases page](https://github.com/jmitchell238/MinistryBase-releases/releases)** and download the newest installer, named like `MinistryBaseSetup_v1.22.2.1.exe`.
+1. Go to the **[Releases page](https://github.com/jmitchell238/MinistryBase-releases/releases)** and download the newest installer, named like `MinistryBaseSetup_v1.22.3.1.exe`.
 
 2. Double-click the file. Windows shows a security warning. Click **Run** (or **More info**, then **Run anyway**, as described below). Windows then asks whether to allow the app to make changes; click **Yes**.
 
