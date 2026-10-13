@@ -133,7 +133,7 @@ Your sermons, calendar, and members stay on your computer. Ministrative contains
 
 ## License and cost
 
-Ministrative is free for personal use and for pastors and churches with 100 or fewer people in regular attendance. At a church with more than 100 people in regular attendance, each person who uses it needs a one-time US $101 license (two pastors = $202); email [james@238apps.com](mailto:james@238apps.com) to get one. Ministrative is proprietary software. See the [Terms of Use](https://ministrative.app/terms.html), [LICENSE.md](LICENSE.md) and the full [license agreement](EULA.md) shown during installation.
+Ministrative is free for everyone: for personal use and for pastors and churches of any size. It is built for small churches, and new features are planned around their needs. Ministrative is proprietary software. See the [Terms of Use](https://ministrative.app/terms.html), [LICENSE.md](LICENSE.md) and the full [license agreement](EULA.md) shown during installation.
 
 ## Contact
 

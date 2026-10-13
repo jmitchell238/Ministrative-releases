@@ -24,19 +24,14 @@ Licensor's official sources and to install and use Ministrative ("Software")
 on computers owned or controlled by you, free of charge, for either of the
 following:
 
-  a) your personal, non-commercial use; or
+  a) your personal use; or
 
   b) your ministry work as a pastor, teacher, or staff member of a church,
-     or the church's own use, where that church has 100 or fewer people in
-     regular attendance.
+     or the church's own use, whatever the size of the church.
 
-Use by or for a church with more than 100 people in regular attendance is
-not covered by this free license. At such a church, each individual who
-uses the Software must first obtain a paid license from Licensor: a one-time
-fee of US $101 per user (for example, two pastors who both use the Software
-need two licenses, US $202 in all). To obtain licenses, contact Licensor at
-the address in Section 11. Use of the Software at such a church by any user
-without their own paid license violates this Agreement.
+The Software is designed for small churches. Licensor has no obligation to
+provide support, updates, or new features, or to act on any request for
+them.
 
 ===============================================================================
 2. INTELLECTUAL PROPERTY
