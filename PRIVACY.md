@@ -6,7 +6,7 @@ This policy covers the Ministrative Windows app. In short: **your ministry conte
 
 ## The app stores your data on your PC
 
-Ministrative keeps your data in files on your own computer, in the folder `%LOCALAPPDATA%\Ministrative` (usually `C:\Users\<your name>\AppData\Local\Ministrative`). If you used this app when it was called MinistryBase, it moves your existing `%LOCALAPPDATA%\MinistryBase` folder to this location the first time it starts, and keeps the old one renamed as `MinistryBase_moved_<date>` until you delete it. This includes your sermons, lessons, articles, attached files, calendar items, and any member information you enter. The developer does not receive, collect, or sell this content.
+Ministrative keeps your data in files on your own computer, in the folder `%LOCALAPPDATA%\Ministrative` (usually `C:\Users\<your name>\AppData\Local\Ministrative`). This includes your sermons, lessons, articles, attached files, calendar items, and any member information you enter. The developer does not receive, collect, or sell this content.
 
 ## No analytics, no advertising, no tracking
 
