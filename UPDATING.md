@@ -30,4 +30,4 @@ MinistryBase may quietly adjust some of your data the first time it opens after 
 
 ## Automatic updates
 
-MinistryBase does not check for updates by itself. When a new version is available, download and install it from the Releases page.
+MinistryBase checks once a day for a new version. When one is available it tells you and shows what's new; click **Download** to open the Releases page, then run the new installer. It does not install anything by itself. You can turn the daily check off in Settings, Notifications & Reminders.

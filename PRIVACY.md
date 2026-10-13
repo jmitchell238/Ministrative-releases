@@ -10,7 +10,15 @@ MinistryBase keeps your data in files on your own computer, in the folder `%LOCA
 
 ## No analytics, no advertising, no tracking
 
-The app contains no analytics, crash reporting, advertising, or usage tracking, and it does not check for updates on its own. It does not send your sermons, calendar, members, or any other content to the developer or to any server. The Bible text used by the app is built into the installation and is not downloaded.
+The app contains no analytics, advertising, or usage tracking. It does not send your sermons, calendar, members, or any other content to the developer or to any server. The Bible text used by the app is built into the installation and is not downloaded.
+
+## Checking for updates
+
+Once a day, when your computer is online, MinistryBase asks GitHub (github.com) whether a newer version has been posted on the MinistryBase Releases page. The request contains only the app's version number. GitHub, like any website, sees your computer's internet address; see GitHub's own privacy statement. None of your content is sent. You can turn this off in Settings, Notifications & Reminders ("Check for updates automatically"), or in the About window.
+
+## Error reports (only when you choose)
+
+If MinistryBase runs into an error, it writes the details to a private log file in your data folder on your computer. It never sends that log by itself. If you choose to report a problem (from the error message or Settings, Report a Problem), the app opens a new message in your own email program with the technical details filled in, so you can read it, change it, and decide whether to send it. As the log is written, the app removes email addresses, phone numbers, street addresses and member and prayer details from it.
 
 ## Things that open only when you ask
 
@@ -22,11 +30,11 @@ Settings includes an "Online Features" page for features that may come in the fu
 
 ## Sensitive information is your responsibility
 
-Member information and notes can be sensitive pastoral information. You are responsible for what you enter and who can access your computer. We recommend turning on Windows device encryption (such as BitLocker), using a password on your Windows account, and keeping your own backups.
+Member information and notes can be sensitive pastoral information. You are responsible for what you enter and who can access your computer. MinistryBase encrypts member details on your computer with a key tied to your Windows account. We also recommend turning on Windows device encryption (such as BitLocker), using a password on your Windows account, and keeping your own backups.
 
 ## Backups
 
-Each time data is saved, MinistryBase keeps a dated backup copy in the same data folder, retaining the 10 most recent for each data file. You can also export a full backup zip file from Settings, Backup and Restore, and save it wherever you like.
+Each time data is saved, MinistryBase keeps a dated backup copy in the same data folder, retaining the 10 most recent for each data file. You can also export a full backup file from Settings, Backup & Export, locked with a password you choose, and save it wherever you like.
 
 ## Removing your data
 

@@ -115,7 +115,7 @@ Download the newest installer and run it over the old version. You do not need t
 
 **Updating from 1.21.1 or earlier:** those versions installed to `C:\Program Files (x86)\MinistryBase`. Version 1.22.0 and later install to `C:\Program Files\MinistryBase`, and the installer removes the old copy for you. Your data is not touched. Close MinistryBase first; if the installer says MinistryBase or `ministrybase_mcp.exe` is still running, close it (and any Claude app using MinistryBase) and click **Retry**.
 
-MinistryBase does not check for updates on its own. New versions are posted on the [Releases page](https://github.com/jmitchell238/MinistryBase-releases/releases).
+MinistryBase checks once a day for a new version and tells you when one is ready. You can turn this off in Settings, Notifications & Reminders. New versions are posted on the [Releases page](https://github.com/jmitchell238/MinistryBase-releases/releases).
 
 ## Your data and backups
 
@@ -129,7 +129,7 @@ Uninstall MinistryBase from **Windows Settings › Apps**, or with **Uninstall M
 
 ## Privacy
 
-Your sermons, calendar, and members stay on your computer. MinistryBase contains no analytics, advertising, or tracking, and it does not send your content anywhere. See [PRIVACY.md](PRIVACY.md).
+Your sermons, calendar, and members stay on your computer. MinistryBase contains no analytics, advertising, or tracking, and it does not send your content anywhere. It checks GitHub once a day for updates, and error reports are only sent if you choose to send them from your own email. See [PRIVACY.md](PRIVACY.md).
 
 ## License and cost
 
