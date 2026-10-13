@@ -2,18 +2,18 @@ Copyright (c) 2026 James Mitchell / 238 Apps. All Rights Reserved.
 
 PROPRIETARY SOFTWARE
 
-"MinistryBase", including its installer, documentation, screenshots, name, and
+"Ministrative", including its installer, documentation, screenshots, name, and
 logo (collectively, the "Software"), is proprietary software and the exclusive
 intellectual property of James Mitchell and 238 Apps.
 
 USE
 
-The MinistryBase installer is provided free of charge for personal use and for
+The Ministrative installer is provided free of charge for personal use and for
 pastors and churches with 100 or fewer people in regular attendance, under the
 End User License Agreement shown during installation (a copy is in EULA.md).
 At a church with more than 100 people in regular attendance, each person who
-uses MinistryBase needs a paid license: a one-time fee of US $101 per user (two
-users = $202). Contact james@238apps.com to get it. Using MinistryBase at a
+uses Ministrative needs a paid license: a one-time fee of US $101 per user (two
+users = $202). Contact james@238apps.com to get it. Using Ministrative at a
 church of that size without a license for each user violates these terms. This notice does not replace or expand that agreement. If
 the two differ, the agreement shown in the installer controls.
 

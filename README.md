@@ -1,14 +1,16 @@
-# MinistryBase
+# Ministrative
+
+Ministrative was called MinistryBase until October 2026.
 
 **A Windows app for pastors and teachers: your sermons, your calendar, and your members, on your own computer.**
 
-Website: **[ministrybase.app](https://ministrybase.app)** · Download: **[Releases](https://github.com/jmitchell238/MinistryBase-releases/releases)**
+Website: **[ministrative.app](https://ministrative.app)** · Download: **[Releases](https://github.com/jmitchell238/Ministrative-releases/releases)**
 
-![The MinistryBase dashboard](screenshots/01_dashboard.png)
+![The Ministrative dashboard](screenshots/01_dashboard.png)
 
-MinistryBase keeps your Sunday sermons, Sunday School lessons, Wednesday Bible studies, and newspaper articles in one searchable library. It puts your services on a calendar and keeps your church's member directory alongside them. Everything stays in a folder on your PC. There is no cloud account and no subscription.
+Ministrative keeps your Sunday sermons, Sunday School lessons, Wednesday Bible studies, and newspaper articles in one searchable library. It puts your services on a calendar and keeps your church's member directory alongside them. Everything stays in a folder on your PC. There is no cloud account and no subscription.
 
-> **Beta:** MinistryBase is in public beta. Export a backup before you install a new version: **Settings › Backup & Restore › Export**.
+> **Beta:** Ministrative is in public beta. Export a backup before you install a new version: **Settings › Backup & Restore › Export**.
 
 ## What's in this release
 
@@ -62,7 +64,7 @@ Sermon Studio (writing in the app), bulletins, prayer requests, and teaching sch
 
 **Before you start:** Windows will warn you that the installer is from an unknown publisher. That is expected and safe; see [Windows will warn you first](#windows-will-warn-you-first) below.
 
-1. Go to the **[Releases page](https://github.com/jmitchell238/MinistryBase-releases/releases)** and download the newest installer, named like `MinistryBaseSetup_v1.22.3.1.exe`.
+1. Go to the **[Releases page](https://github.com/jmitchell238/Ministrative-releases/releases)** and download the newest installer, named like `MinistrativeSetup_v<version>.exe`.
 
 2. Double-click the file. Windows shows a security warning. Click **Run** (or **More info**, then **Run anyway**, as described below). Windows then asks whether to allow the app to make changes; click **Yes**.
 
@@ -70,15 +72,15 @@ Sermon Studio (writing in the app), bulletins, prayer requests, and teaching sch
 
 3. **Welcome:** tick **I accept the License Agreement**, then click **Install**. Install stays greyed out until the box is ticked. Click the **License Agreement** link if you want to read the full license first.
 
-   You can also tick **Create a desktop shortcut**, or click **Change install folder** to put MinistryBase somewhere other than `C:\Program Files\MinistryBase`. When you update later, the installer keeps the folder you already use.
+   You can also tick **Create a desktop shortcut**, or click **Change install folder** to put Ministrative somewhere other than `C:\Program Files\Ministrative`. When you update later, the installer keeps the folder you already use.
 
    ![The Welcome page with the I accept box and the Install button circled](screenshots/install/2-welcome-accept.png)
 
-4. **Finish:** wait while it installs (it also sets up the Microsoft Visual C++ runtime the app needs). Then leave **Launch MinistryBase** ticked and click **Finish**. Later, open MinistryBase from the Start menu (or the desktop shortcut).
+4. **Finish:** wait while it installs (it also sets up the Microsoft Visual C++ runtime the app needs). Then leave **Launch Ministrative** ticked and click **Finish**. Later, open Ministrative from the Start menu (or the desktop shortcut).
 
-   ![The final page with Launch MinistryBase and Finish circled](screenshots/install/3-finish.png)
+   ![The final page with Launch Ministrative and Finish circled](screenshots/install/3-finish.png)
 
-By default the app installs to `C:\Program Files\MinistryBase`. Your data is kept separately, in `%LOCALAPPDATA%\MinistryBase`.
+By default the app installs to `C:\Program Files\Ministrative`. Your data is kept separately, in `%LOCALAPPDATA%\Ministrative`.
 
 ## Windows will warn you first
 
@@ -89,22 +91,22 @@ By default the app installs to `C:\Program Files\MinistryBase`. Your data is kep
 **Or a blue "Windows protected your PC" box.** It has no Run button at first:
 
 1. Click the small **More info** link under the message.
-2. Check that the app is `MinistryBaseSetup_v….exe` and the publisher says **Unknown publisher**.
+2. Check that the app is `MinistrativeSetup_v….exe` and the publisher says **Unknown publisher**.
 3. Click **Run anyway**.
 
-**Why it happens:** Windows warns about any downloaded program that isn't code-signed. MinistryBase is free, and a signing certificate costs money every year. The warning means "Windows doesn't know this publisher yet," not "this app is harmful."
+**Why it happens:** Windows warns about any downloaded program that isn't code-signed. Ministrative is free, and a signing certificate costs money every year. The warning means "Windows doesn't know this publisher yet," not "this app is harmful."
 
-**Only download the installer from the [Releases page](https://github.com/jmitchell238/MinistryBase-releases/releases).** If you got it anywhere else, don't run it.
+**Only download the installer from the [Releases page](https://github.com/jmitchell238/Ministrative-releases/releases).** If you got it anywhere else, don't run it.
 
 Your browser may also say the file "isn't commonly downloaded". In Edge, open the downloads list, click **…** next to the file, choose **Keep**, then **Show more** and **Keep anyway**.
 
 ## First-time setup
 
-The first time you open MinistryBase, a short setup asks for:
+The first time you open Ministrative, a short setup asks for:
 
 1. **Your profile:** your church's name, your name, and your title (for example, Pastor). These show on the dashboard.
 2. **Your service schedule:** the services your church holds each week, such as Sunday Morning or Wednesday Evening. They fill the calendar on their own.
-3. **A post-service check-in:** whether MinistryBase should ask after each service what you preached and how many attended.
+3. **A post-service check-in:** whether Ministrative should ask after each service what you preached and how many attended.
 4. **An admin password:** you enter it each time you open the app. You are then given a **recovery code**. Write it down and keep it somewhere safe. It is the only way to reset a forgotten password.
 
 You can change all of this later in **Settings**.
@@ -113,34 +115,34 @@ You can change all of this later in **Settings**.
 
 Download the newest installer and run it over the old version. You do not need to uninstall first, and your data is kept. See [UPDATING.md](UPDATING.md).
 
-**Updating from 1.21.1 or earlier:** those versions installed to `C:\Program Files (x86)\MinistryBase`. Version 1.22.0 and later install to `C:\Program Files\MinistryBase`, and the installer removes the old copy for you. Your data is not touched. Close MinistryBase first; if the installer says MinistryBase or `ministrybase_mcp.exe` is still running, close it (and any Claude app using MinistryBase) and click **Retry**.
+**Updating from 1.21.1 or earlier:** those versions (then called MinistryBase) installed to `C:\Program Files (x86)\MinistryBase`. The installer removes the old copy for you. See [Updating from MinistryBase](UPDATING.md#updating-from-ministrybase). Your data is not touched.
 
-MinistryBase checks once a day for a new version and tells you when one is ready. You can turn this off in Settings, Notifications & Reminders. New versions are posted on the [Releases page](https://github.com/jmitchell238/MinistryBase-releases/releases).
+Ministrative checks once a day for a new version and tells you when one is ready. You can turn this off in Settings, Notifications & Reminders. New versions are posted on the [Releases page](https://github.com/jmitchell238/Ministrative-releases/releases).
 
 ## Your data and backups
 
-- Everything you enter, plus your attached files and settings, lives in `%LOCALAPPDATA%\MinistryBase` on your PC.
-- Each save keeps a dated backup, and MinistryBase holds the 10 most recent for each data file.
+- Everything you enter, plus your attached files and settings, lives in `%LOCALAPPDATA%\Ministrative` on your PC.
+- Each save keeps a dated backup, and Ministrative holds the 10 most recent for each data file.
 - **Settings › Backup & Restore** exports your whole library, attached files included, as one zip file. You can import it again on this PC or a new one.
 
 ## Uninstalling
 
-Uninstall MinistryBase from **Windows Settings › Apps**, or with **Uninstall MinistryBase** in the Start menu. Uninstalling leaves your data in place. To remove it completely, delete the `%LOCALAPPDATA%\MinistryBase` folder afterward.
+Uninstall Ministrative from **Windows Settings › Apps**, or with **Uninstall Ministrative** in the Start menu. Uninstalling leaves your data in place. To remove it completely, delete the `%LOCALAPPDATA%\Ministrative` folder afterward.
 
 ## Privacy
 
-Your sermons, calendar, and members stay on your computer. MinistryBase contains no analytics, advertising, or tracking, and it does not send your content anywhere. It checks GitHub once a day for updates, and error reports are only sent if you choose to send them from your own email. See [PRIVACY.md](PRIVACY.md).
+Your sermons, calendar, and members stay on your computer. Ministrative contains no analytics, advertising, or tracking, and it does not send your content anywhere. It checks GitHub once a day for updates, and error reports are only sent if you choose to send them from your own email. See [PRIVACY.md](PRIVACY.md).
 
 ## License and cost
 
-MinistryBase is free for personal use and for pastors and churches with 100 or fewer people in regular attendance. At a church with more than 100 people in regular attendance, each person who uses it needs a one-time US $101 license (two pastors = $202); email [james@238apps.com](mailto:james@238apps.com) to get one. MinistryBase is proprietary software. See the [Terms of Use](https://ministrybase.app/terms.html), [LICENSE.md](LICENSE.md) and the full [license agreement](EULA.md) shown during installation.
+Ministrative is free for personal use and for pastors and churches with 100 or fewer people in regular attendance. At a church with more than 100 people in regular attendance, each person who uses it needs a one-time US $101 license (two pastors = $202); email [james@238apps.com](mailto:james@238apps.com) to get one. Ministrative is proprietary software. See the [Terms of Use](https://ministrative.app/terms.html), [LICENSE.md](LICENSE.md) and the full [license agreement](EULA.md) shown during installation.
 
 ## Contact
 
-- Help and bug reports: [support@238apps.com](mailto:support@238apps.com)
+- Help and bug reports: [support@ministrative.app](mailto:support@ministrative.app)
 - Privacy questions: [privacy@238apps.com](mailto:privacy@238apps.com)
 - Licensing: [james@238apps.com](mailto:james@238apps.com)
 
 ---
 
-[ministrybase.app](https://ministrybase.app) · Made by [238 Apps](https://238apps.com)
+[ministrative.app](https://ministrative.app) · Made by [238 Apps](https://238apps.com)

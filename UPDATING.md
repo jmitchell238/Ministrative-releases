@@ -1,21 +1,36 @@
-# Updating MinistryBase
+# Updating Ministrative
 
 **Short answer:** Download the new installer and run it. Your data is safe.
 
 ## How to update
 
-1. **Close MinistryBase** if it is open.
-2. **Download the new installer** from the [Releases page](https://github.com/jmitchell238/MinistryBase-releases/releases). The file is named like `MinistryBaseSetup_v1.22.2.1.exe`.
+1. **Close Ministrative** if it is open.
+2. **Download the new installer** from the [Releases page](https://github.com/jmitchell238/Ministrative-releases/releases). The file is named like `MinistrativeSetup_v<version>.exe`.
 3. **Run the installer.** Double-click it. Windows shows the same security warning as the first time: click **Run** (or **More info**, then **Run anyway**), then **Yes**. See [Windows will warn you first](README.md#windows-will-warn-you-first).
-4. **Update MinistryBase:** the first screen says **Update MinistryBase**. Tick **I accept the License Agreement** and click **Install**. You do not need to uninstall the old version first; the installer updates it in place, in the same folder.
-5. **Finish:** leave **Launch MinistryBase** ticked and click **Finish**. A "What's New" window may appear to show what changed.
+4. **Update Ministrative:** the first screen says **Update Ministrative**. Tick **I accept the License Agreement** and click **Install**. You do not need to uninstall the old version first; the installer updates it in place, in the same folder.
+5. **Finish:** leave **Launch Ministrative** ticked and click **Finish**. A "What's New" window may appear to show what changed.
 6. **Check the version** if you like: open **Settings** (the gear icon at the bottom of the sidebar), then **About**.
 
-**Updating from 1.21.1 or earlier:** those versions installed to `C:\Program Files (x86)\MinistryBase`. The new installer moves MinistryBase to `C:\Program Files\MinistryBase` and removes the old copy for you. If it says MinistryBase or `ministrybase_mcp.exe` is still running, close it (and any Claude app using MinistryBase) and click **Retry**.
+**Updating from 1.21.1 or earlier:** those versions (then called MinistryBase) installed to `C:\Program Files (x86)\MinistryBase`. The new installer removes the old copy for you. If it says the app or `ministrative_mcp.exe` is still running, close it (and any Claude app using it) and click **Retry**.
+
+## Updating from MinistryBase
+
+Ministrative was called MinistryBase until October 2026. To move over:
+
+1. Close MinistryBase, then run the new `MinistrativeSetup_v<version>.exe` over the old install. It replaces MinistryBase and installs the program to `C:\Program Files\Ministrative`.
+2. Start Ministrative. The first time it opens, your data moves automatically from `%LOCALAPPDATA%\MinistryBase` to `%LOCALAPPDATA%\Ministrative`.
+3. The old data folder is kept as `MinistryBase_moved_<date>`. Once you have checked that your library, calendar, and members are all there, you can delete it.
+4. If you use Claude with the MCP server, add it again under the new name. In Claude Code (from WSL), run:
+
+   ```bash
+   claude mcp add --scope local ministrative -- "/mnt/c/Program Files/Ministrative/ministrative_mcp.exe"
+   ```
+
+   In Claude Desktop, edit `claude_desktop_config.json` so the entry is named `ministrative` and its `command` is `C:\\Program Files\\Ministrative\\ministrative_mcp.exe` (backslashes doubled in JSON). You can remove the old `ministrybase` entry.
 
 ## Your data is safe
 
-Your entries and settings are stored in a separate folder from the app (`%LOCALAPPDATA%\MinistryBase`). The installer does not touch that folder when installing, upgrading, or uninstalling. That means:
+Your entries and settings are stored in a separate folder from the app (`%LOCALAPPDATA%\Ministrative`). The installer does not touch that folder when installing, upgrading, or uninstalling. That means:
 
 - All your entries are kept after every update
 - Attached files (Word documents, PDFs, and so on) are kept
@@ -26,8 +41,8 @@ If you like extra peace of mind, export a backup first: **Settings, Backup and R
 
 ## If something looks different after updating
 
-MinistryBase may quietly adjust some of your data the first time it opens after an update, for example filling in new fields. This is normal, and you will not be asked to do anything. If something does not look right, email [support@238apps.com](mailto:support@238apps.com).
+Ministrative may quietly adjust some of your data the first time it opens after an update, for example filling in new fields. This is normal, and you will not be asked to do anything. If something does not look right, email [support@ministrative.app](mailto:support@ministrative.app).
 
 ## Automatic updates
 
-MinistryBase checks once a day for a new version. When one is available it tells you and shows what's new; click **Download** to open the Releases page, then run the new installer. It does not install anything by itself. You can turn the daily check off in Settings, Notifications & Reminders.
+Ministrative checks once a day for a new version. When one is available it tells you and shows what's new; click **Download** to open the Releases page, then run the new installer. It does not install anything by itself. You can turn the daily check off in Settings, Notifications & Reminders.
