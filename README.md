@@ -115,8 +115,6 @@ You can change all of this later in **Settings**.
 
 Download the newest installer and run it over the old version. You do not need to uninstall first, and your data is kept. See [UPDATING.md](UPDATING.md).
 
-**Updating from 1.21.1 or earlier:** those versions (then called MinistryBase) installed to `C:\Program Files (x86)\MinistryBase`. The installer removes the old copy for you. See [Updating from MinistryBase](UPDATING.md#updating-from-ministrybase). Your data is not touched.
-
 Ministrative checks once a day for a new version and tells you when one is ready. You can turn this off in Settings, Notifications & Reminders. New versions are posted on the [Releases page](https://github.com/jmitchell238/Ministrative-releases/releases).
 
 ## Your data and backups

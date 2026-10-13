@@ -11,23 +11,6 @@
 5. **Finish:** leave **Launch Ministrative** ticked and click **Finish**. A "What's New" window may appear to show what changed.
 6. **Check the version** if you like: open **Settings** (the gear icon at the bottom of the sidebar), then **About**.
 
-**Updating from 1.21.1 or earlier:** those versions (then called MinistryBase) installed to `C:\Program Files (x86)\MinistryBase`. The new installer removes the old copy for you. If it says the app or `ministrative_mcp.exe` is still running, close it (and any Claude app using it) and click **Retry**.
-
-## Updating from MinistryBase
-
-Ministrative was called MinistryBase until October 2026. To move over:
-
-1. Close MinistryBase, then run the new `MinistrativeSetup_v<version>.exe` over the old install. It replaces MinistryBase and installs the program to `C:\Program Files\Ministrative`.
-2. Start Ministrative. The first time it opens, your data moves automatically from `%LOCALAPPDATA%\MinistryBase` to `%LOCALAPPDATA%\Ministrative`.
-3. The old data folder is kept as `MinistryBase_moved_<date>`. Once you have checked that your library, calendar, and members are all there, you can delete it.
-4. If you use Claude with the MCP server, add it again under the new name. In Claude Code (from WSL), run:
-
-   ```bash
-   claude mcp add --scope local ministrative -- "/mnt/c/Program Files/Ministrative/ministrative_mcp.exe"
-   ```
-
-   In Claude Desktop, edit `claude_desktop_config.json` so the entry is named `ministrative` and its `command` is `C:\\Program Files\\Ministrative\\ministrative_mcp.exe` (backslashes doubled in JSON). You can remove the old `ministrybase` entry.
-
 ## Your data is safe
 
 Your entries and settings are stored in a separate folder from the app (`%LOCALAPPDATA%\Ministrative`). The installer does not touch that folder when installing, upgrading, or uninstalling. That means:
