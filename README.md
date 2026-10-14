@@ -127,6 +127,16 @@ Ministrative checks once a day for a new version and tells you when one is ready
 
 Uninstall Ministrative from **Windows Settings › Apps**, or with **Uninstall Ministrative** in the Start menu. Uninstalling leaves your data in place. To remove it completely, delete the `%LOCALAPPDATA%\Ministrative` folder afterward.
 
+## Reporting a problem
+
+Ministrative is in beta, so reports help a lot. If something goes wrong:
+
+1. In Ministrative, open **Settings** and choose **Report a Problem** (or click **Send report** if the app offers it after an error).
+2. Describe what you were doing, then click **Create report**. The app saves a small zip file and opens an email for you to attach it to. Use **Preview what's included** to see exactly what is in it. It never includes your sermons, members or prayer requests.
+3. Send it. If no email program opens, send the file to [exception.reports@ministrative.app](mailto:exception.reports@ministrative.app) from any email.
+
+For questions, ideas, or a problem the app can't report itself, email [support@ministrative.app](mailto:support@ministrative.app). Please include your version number (**Settings › About**) and, if you can, a screenshot.
+
 ## Privacy
 
 Your sermons, calendar, and members stay on your computer. Ministrative contains no analytics, advertising, or tracking, and it does not send your content anywhere. It checks GitHub once a day for updates, and error reports are only sent if you choose to send them from your own email. See [PRIVACY.md](PRIVACY.md).
