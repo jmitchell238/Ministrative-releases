@@ -39,9 +39,16 @@ Ministrative keeps your Sunday sermons, Sunday School lessons, Wednesday Bible s
 
 - A directory of your congregation: phone, email, address, family, and the role each person serves in.
 - Birthdays and anniversaries show on the dashboard.
+- Group people into households, and see each family on one card.
+- Link parents and children to see a family tree, across households and up to five living generations.
+- Keep a private care log of visits, calls and cards, with follow-ups on the dashboard.
 - Only want the library? Turn the calendar or Members off in **Settings › Features**. Nothing is deleted.
 
-![A member's details](screenshots/09_member_details.png)
+![A member's profile](screenshots/09_member_details.png)
+
+![Households, one card per family](screenshots/13_households.png)
+
+![A family tree with five generations](screenshots/14_family_tree.png)
 
 ### Light or dark
 
