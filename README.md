@@ -10,7 +10,7 @@ Website: **[ministrative.app](https://ministrative.app)** · Download: **[Releas
 
 Ministrative keeps your Sunday sermons, Sunday School lessons, Wednesday Bible studies, and newspaper articles in one searchable library. It puts your services on a calendar and keeps your church's member directory alongside them. Everything stays in a folder on your PC. There is no cloud account and no subscription.
 
-> **Beta:** Ministrative is in public beta. Export a backup before you install a new version: **Settings › Backup & Restore › Export**.
+> **Beta:** Ministrative is in public beta. Export a backup before you install a new version: **Settings › Backup & Export › Export Backup**.
 
 ## What's in this release
 
@@ -131,7 +131,7 @@ Ministrative checks once a day for a new version and tells you when one is ready
 
 - Everything you enter, plus your attached files and settings, lives in `%LOCALAPPDATA%\Ministrative` on your PC.
 - Each save keeps a dated backup, and Ministrative holds the 10 most recent for each data file.
-- **Settings › Backup & Restore** exports your whole library, attached files included, as one zip file. You can import it again on this PC or a new one.
+- **Settings › Backup & Export** exports your whole library, attached files included, as one password-protected backup file. You can import it again on this PC or a new one.
 
 ## Uninstalling
 
