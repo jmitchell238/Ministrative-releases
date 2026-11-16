@@ -31,6 +31,7 @@ Ministrative keeps your Sunday sermons, Sunday School lessons, Wednesday Bible s
 - Your weekly services fill the calendar on their own.
 - Add meetings, funerals, weddings, and other events.
 - View the month, a week, or an agenda list, and see any day laid out hour by hour beside it. Colors tell sermons, lessons, articles, events, and services apart.
+- Open a day to see, at a glance, every sermon and lesson for that day in time order, then the day laid out hour by hour.
 - Choose what the calendar shows from one Show menu.
 - After a service, record what you preached, the attendance, and a note.
 
