@@ -124,7 +124,7 @@ You can change all of this later in **Settings**.
 
 ## Updating
 
-Download the newest installer and run it over the old version. You do not need to uninstall first, and your data is kept. See [UPDATING.md](UPDATING.md).
+From version 1.1.2 on, click **Update now** when Ministrative says a new version is ready, then **Install and restart**. Ministrative downloads and checks the update, installs it, and opens again. You can also download the newest installer and run it over the old version. Either way, you do not need to uninstall first, and your data is kept. See [UPDATING.md](UPDATING.md).
 
 Ministrative checks once a day for a new version and tells you when one is ready. You can turn this off in Settings, Notifications & Reminders. New versions are posted on the [Releases page](https://github.com/jmitchell238/Ministrative-releases/releases).
 

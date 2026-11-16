@@ -28,4 +28,14 @@ Ministrative may quietly adjust some of your data the first time it opens after 
 
 ## Automatic updates
 
-Ministrative checks once a day for a new version. When one is available it tells you and shows what's new; click **Download** to open the Releases page, then run the new installer. It does not install anything by itself. You can turn the daily check off in Settings, Notifications & Reminders.
+Ministrative checks once a day for a new version. When one is available it tells you and shows what's new.
+
+From version 1.1.2 on:
+
+1. Click **Update now**. Ministrative downloads the new version and checks that the file is exactly the one posted on the Releases page. A damaged download is deleted and nothing is installed.
+2. Click **Install and restart**. Ministrative closes, Windows asks for permission once (click **Yes**), the update installs without any setup pages, and Ministrative opens again on the new version.
+3. If the update did not finish, Ministrative tells you the next time it opens and still runs the version you had.
+
+**Install when you close (optional, off unless you turn it on):** in Settings, Notifications & Reminders, turn on **Download updates in the background and install when I close Ministrative**. The update is then downloaded quietly and installed when you close Ministrative.
+
+Ministrative never installs an older version, and never installs anything unless you click Install or have turned on that setting. You can still update the old way: download the installer from the Releases page and run it. You can turn the daily check off in Settings, Notifications & Reminders.

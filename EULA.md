@@ -33,6 +33,11 @@ The Software is designed for small churches. Licensor has no obligation to
 provide support, updates, or new features, or to act on any request for
 them.
 
+Updates. "Software" includes every update and new version of Ministrative
+that you install, including one the Software downloads and installs for you
+when you choose to update it. Each update is covered by this Agreement,
+unless a new agreement is shown to you when that update is installed.
+
 ===============================================================================
 2. INTELLECTUAL PROPERTY
 ===============================================================================
