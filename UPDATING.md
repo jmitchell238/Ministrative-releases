@@ -30,7 +30,7 @@ Ministrative may quietly adjust some of your data the first time it opens after 
 
 Ministrative checks once a day for a new version. When one is available it tells you and shows what's new.
 
-From version 1.1.2 on:
+From version 1.1.4 on:
 
 1. Click **Update now**. Ministrative downloads the new version and checks that the file is exactly the one posted on the Releases page. A damaged download is deleted and nothing is installed.
 2. Click **Install and restart**. Ministrative closes, Windows asks for permission once (click **Yes**), the update installs without any setup pages, and Ministrative opens again on the new version.
